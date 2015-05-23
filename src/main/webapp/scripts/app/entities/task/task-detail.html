@@ -1,0 +1,62 @@
+
+<div>
+    <h2><span translate="dimonappApp.task.detail.title">Task</span> {{task.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th translate="entity.detail.field">Field</th>
+                    <th translate="entity.detail.value">Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span translate="dimonappApp.task.title">Title</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{task.title}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="dimonappApp.task.content">Content</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{task.content}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="dimonappApp.task.reward">Reward</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{task.reward}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="dimonappApp.task.until">Until</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{task.until}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="dimonappApp.task.category">category</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{task.category.name}}" readonly>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            ui-sref="task"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

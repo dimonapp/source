@@ -1,0 +1,18 @@
+{
+    "main": {
+        "title": "Добро пожаловать в dimonapp!",
+        "subtitle": "Это ваша домашняя страница",
+        "logged": {
+            "message": "Вы вошли как пользователь \"{{username}}\"."
+        },
+        "question": "Если у Вас возникли вопросы по dimonapp:",
+        "link": {
+            "homepage": "dimonapp домашняя страница",
+            "stackoverflow": "dimonapp на Stack Overflow",
+            "bugtracker": "dimonapp баг трекер",
+            "contact": "пользователь @dimonapp в Twitter"
+        },
+        "like": "Если вам нравится dimonapp, не забудьте дать нам звёздочку на",
+        "github": "Github"
+    }
+}

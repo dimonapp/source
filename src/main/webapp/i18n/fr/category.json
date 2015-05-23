@@ -1,0 +1,22 @@
+{
+    "dimonappApp": {
+        "category" : {
+            "home": {
+                "title": "Categorys",
+                "createLabel": "Créer un nouveau Category",
+                "createOrEditLabel": "Créer ou éditer un Category"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Category {{ id }} ?"
+            },
+            "detail": {
+                "title": "Category"
+            },
+            "name": "Name",
+            "code": "Code",
+            "categories": "categories",
+            "tasks": "tasks"
+        }
+    }
+}
+

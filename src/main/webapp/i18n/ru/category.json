@@ -1,0 +1,21 @@
+{
+    "dimonappApp": {
+        "category" : {
+            "home": {
+                "title": "Категории заданий",
+                "createLabel": "Создать новую категорию",
+                "createOrEditLabel": "Create or edit a Category"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Category {{ id }}?"
+            },
+            "detail": {
+                "title": "Category"
+            },
+            "name": "Name",
+            "code": "Code",
+            "categories": "categories",
+            "tasks": "tasks"
+        }
+    }
+}
